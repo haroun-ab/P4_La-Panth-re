@@ -289,7 +289,6 @@ a:hover {
  .column{
       display: flex;
       flex-direction: column; 
-
   }
  
 #bloc-1-hero h1  {
@@ -351,10 +350,9 @@ strong{
 
 .navbar-nav .open .dropdown-menu > li > a {
   text-align: inherit;
-  
+
 
 }
-
 
 
 header{
