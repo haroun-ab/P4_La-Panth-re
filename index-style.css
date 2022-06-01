@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -9,8 +8,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-*{
-    font-family: 'Montserrat', sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
 a,
@@ -94,7 +93,6 @@ a:hover {
   left: 0;
   right: 0;
 }
-
 
 .b-parallax {
   background-attachment: fixed;
@@ -277,7 +275,6 @@ a:hover {
   margin-right: 0;
   margin-left: 0;
   display: flex;
- 
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -286,23 +283,22 @@ a:hover {
   padding-left: 0;
 }
 
- .column{
-      display: flex;
-      flex-direction: column; 
-  }
- 
-#bloc-1-hero h1  {
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+#bloc-1-hero h1 {
   font-size: 32px;
   font-weight: 500 !important;
-  
 }
-h2 strong{
+h2 strong {
   font-weight: 600;
 }
-p strong{
+p strong {
   font-weight: 400;
 }
-strong{
+strong {
   font-weight: 500;
 }
 
@@ -345,23 +341,19 @@ strong{
   float: left;
   margin-top: 4px;
   font-size: 16px;
-  
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
   text-align: inherit;
-
-
 }
 
-
-header{
-    background-color: #ffffffe4  !important;
-    position: sticky !important;
-    top: 0;
-    left: 0;    
-    z-index: 2;
-    box-shadow: rgba(181, 181, 181, 0.384) 0px 5px 10px;
+header {
+  background-color: #ffffffe4 !important;
+  position: sticky !important;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  box-shadow: rgba(181, 181, 181, 0.384) 0px 5px 10px;
 }
 .navbar-toggle {
   margin: 10px 10px 0 0;
@@ -401,18 +393,18 @@ header{
     color: #484848;
   }
 
-  .nav > li a{
+  .nav > li a {
     margin: 10px;
     padding: 5px;
     border-bottom: 1px solid transparent;
-}
+  }
 
-.nav > li a:hover,
-.nav > li a:focus {
+  .nav > li a:hover,
+  .nav > li a:focus {
     background: transparent;
-    color: #606DD2 !important;
-   font-weight: 500;
-}
+    color: #606dd2 !important;
+    font-weight: 500;
+  }
 
   .nav-invert .site-navigation {
     left: 0;
@@ -691,14 +683,14 @@ p,
 label,
 .btn,
 a {
-  font-family: 'Montserrat', sans-serif;;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: black !important;
 }
 
- a:link{
-   text-decoration: none;
- }
+a:link {
+  text-decoration: none;
+}
 
 .container {
   max-width: 1000px;
@@ -736,25 +728,25 @@ figure {
 blockquote {
   border-left: none;
   font-size: 19px;
-  margin: 3px 3px 0 3px ;
+  margin: 3px 3px 0 3px;
   padding-bottom: 0;
   font-style: italic;
 }
 
 blockquote:before {
-  content: '\275D';
+  content: "\275D";
   font-size: 20px;
-  color:#606DD2;
+  color: #606dd2;
 }
 
 blockquote:after {
-  content: '\275E';
+  content: "\275E";
   font-size: 20px;
-    color:#606DD2;
+  color: #606dd2;
 }
 
 figcaption p {
- color: #606DD2 !important; 
+  color: #606dd2 !important;
   font-size: 19px;
   font-weight: 400;
 }
@@ -766,7 +758,7 @@ figcaption p {
 
 h1 {
   font-size: 20px;
-  font-weight: 400 ;
+  font-weight: 400;
 }
 
 .cta-hero {
@@ -784,36 +776,31 @@ h1 {
   display: flex;
   justify-content: center;
 }
-.margin-auto{
-    margin: auto;
-}    
+.margin-auto {
+  margin: auto;
+}
 h2 {
   font-size: 22px;
   line-height: 1.4em;
-   color: #606DD2 !important;
-   font-weight: 600 !important;
+  color: #606dd2 !important;
+  font-weight: 600 !important;
 }
 #bloc-2-services h2 {
   width: 65%;
   margin: auto;
   font-size: 20px;
-
 }
 #bloc-4-portfolio h2 {
   max-width: 420px;
   margin: auto;
   font-size: 20px;
   font-weight: 500;
-  
 }
 h3 {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
-;
 }
-
-
 
 .med-width-whitespace {
   max-width: 800px;
@@ -853,7 +840,7 @@ h4 {
 }
 
 .black-background {
-  background-color: #0d1fa18f !important;;
+  background-color: #0d1fa18f !important;
   padding: 40px 10px;
 }
 
@@ -867,11 +854,11 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-  background-color: #606DD2;
+  background-color: #606dd2;
 }
 
 .bgc-atomic-tangerine {
-  background-color: #606DD2!important;
+  background-color: #606dd2 !important;
 }
 
 .tc-white {
@@ -881,49 +868,45 @@ h4 {
   z-index: 1;
   position: relative;
 }
-#bloc-6 .tc-white{
-    color: white !important;
+#bloc-6 .tc-white {
+  color: white !important;
 }
 #bloc-3-what-i-do .tc-white {
   font-weight: 500 !important;
- text-shadow: rgb(0, 0, 0) 2px 2px 5px;
-
+  text-shadow: rgb(0, 0, 0) 2px 2px 5px;
 }
-#form_1 .btn-atomic-tangerine{
-    background: #606DD2 ;
-  color: #ffffff!important;
-
-  }
-  #form_1 .btn-atomic-tangerine:hover{
-    background: #5a6adf ;
-  color: #ffffff!important;
+#form_1 .btn-atomic-tangerine {
+  background: #606dd2;
+  color: #ffffff !important;
+}
+#form_1 .btn-atomic-tangerine:hover {
+  background: #5a6adf;
+  color: #ffffff !important;
   box-shadow: 0px 0px 2px transparent;
-
-  }
+}
 .btn-atomic-tangerine {
-background: #606DD2;
-  color: white!important;
+  background: #606dd2;
+  color: white !important;
 }
 
 .btn-atomic-tangerine:hover {
- background: #6070ea;
+  background: #6070ea;
   color: #ffffff !important;
   box-shadow: 0px 1px 2px #363636;
 }
 
 .ltc-white {
-    color: #ffffff !important;
+  color: #ffffff !important;
   text-shadow: none;
   font-size: 13px;
 }
 
 .ltc-white:hover {
   margin-left: -2px;
-
 }
 
 .ltc-atomic-tangerine {
-  color:  #606DD2!important;
+  color: #606dd2 !important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -931,8 +914,8 @@ background: #606DD2;
 }
 
 .icon-dark-slate-blue {
-  color: black!important;
-  border-color: black!important;
+  color: black !important;
+  border-color: black !important;
 }
 
 .bg-dots-bg {
@@ -945,7 +928,7 @@ background: #606DD2;
 
 .bg-presentation {
   background-image: url("img/image-de-presentation.webp");
-filter: grayscale(.5) ;
+  filter: grayscale(0.5);
 }
 
 @media (max-width: 1024px) {
@@ -1015,7 +998,7 @@ filter: grayscale(.5) ;
     width: 90%;
     margin: auto;
   }
-
+}
 @media (max-width: 767px) {
   .page-container {
     overflow-x: hidden;
@@ -1076,10 +1059,10 @@ filter: grayscale(.5) ;
   #hero-bloc .navbar .nav a {
     color: rgba(255, 255, 255, 0.6);
   }
-  .img-responsive{
+  .img-responsive {
     height: 50vw;
     object-fit: cover;
-}
+  }
   .hero {
     padding: 50px 0;
   }
@@ -1127,9 +1110,9 @@ filter: grayscale(.5) ;
     padding-left: 0;
     padding-right: 0;
   }
-    #bloc-5-cta{
+  #bloc-5-cta {
     padding: 0 10px;
-    }
+  }
   .a-block {
     padding: 0 10px;
   }
@@ -1148,7 +1131,7 @@ filter: grayscale(.5) ;
   form {
     padding: 5px;
   }
- 
+
   .close-lightbox {
     display: inline-block;
   }
