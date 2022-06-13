@@ -81,7 +81,7 @@ a:hover {
 }
 
 .d-bloc {
-  color: rgba(255, 255, 255, 0.7);
+  color: #ffffffb3;
 }
 
 .d-bloc a .icon-md {
@@ -440,71 +440,4 @@ h2 {
     padding-left: 0;
     padding-right: 0;
   }
-}
-
-/*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-@font-face {
-  font-family: FontAwesome;
-  src: url(https://haroun-ab.github.io/P4_La-Panthere/fonts/fontawesome-webfont.eot?v=4.7.0);
-  src: url(https://haroun-ab.github.io/P4_La-Panthere/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0)
-      format("embedded-opentype"),
-    url(https://haroun-ab.github.io/P4_La-Panthere/fonts/fontawesome-webfont.woff2?v=4.7.0)
-      format("woff2"),
-    url(https://haroun-ab.github.io/P4_La-Panthere/fonts/fontawesome-webfont.woff?v=4.7.0)
-      format("woff"),
-    url(https://haroun-ab.github.io/P4_La-Panthere/fonts/fontawesome-webfont.ttf?v=4.7.0)
-      format("truetype"),
-    url(https://haroun-ab.github.io/P4_La-Panthere/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular)
-      format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.fa-twitter:before {
-  content: "\f099";
-}
-.fa-facebook:before {
-  content: "\f09a";
-}
-.fa-instagram:before {
-  content: "\f16d";
-}
-.fa-dribbble:before {
-  content: "\f17d";
-}
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-
-/*Et-lines*/
-@font-face {
-  font-family: et-line;
-  src: url(https://haroun-ab.github.io/P4_La-Panthere/fonts/et-line.eot);
-  src: url(https://haroun-ab.github.io/P4_La-Panthere/fonts/et-line.eot?#iefix)
-      format("embedded-opentype"),
-    url(https://haroun-ab.github.io/P4_La-Panthere/fonts/et-line.woff)
-      format("woff"),
-    url(https://haroun-ab.github.io/P4_La-Panthere/fonts/et-line.ttf)
-      format("truetype"),
-    url(https://haroun-ab.github.io/P4_La-Panthere/fonts/et-line.svg#et-line)
-      format("svg");
-  font-weight: 400;
-  font-style: normal;
 }
