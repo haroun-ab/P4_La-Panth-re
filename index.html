@@ -24,23 +24,21 @@
     <link rel="shortcut icon" type="image/jpg" href="img/icon.jpg" />
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="./css/index-style.css" />
-
-    <script src="./js/jquery-3.6.0.js" defer></script>
+    <script src="./js/blocs.js" defer></script>
+    <script src="./js/jquery-3.6.0.js"></script>
     <script src="./js/bootstrap.js" defer></script>
     <script src="./js/jquery.touchSwipe.js" defer></script>
-    <script src="./js/blocs.js" defer></script>
 
     <title>Agence de Web Design – La Panthère</title>
   </head>
 
   <body>
     <div class="page-container">
-      <!-- Header -->
       <header class="bloc bgc-white l-bloc" id="bloc-0">
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
-              <a class="navbar-brand" href="index.html"
+              <a class="navbar-brand" href="index.html" tabindex="-1"
                 ><img
                   id="top-page"
                   src="img/agence-la-panthere-monochrome.svg"
@@ -74,10 +72,9 @@
           </nav>
         </div>
       </header>
-      <!-- Header END -->
 
-      <!-- Presentation -->
       <main>
+        <!-- Presentation -->
         <section
           class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
           id="bloc-1-hero"
@@ -107,7 +104,6 @@
             </div>
           </div>
         </section>
-        <!-- Presentation END -->
 
         <!-- Services -->
         <section class="bloc bgc-white l-bloc" id="bloc-2-services">
@@ -282,7 +278,6 @@
             </div>
           </div>
         </section>
-        <!-- Services END -->
 
         <!-- What-i-do -->
         <section
@@ -296,7 +291,7 @@
                   Nous souhaitons aider les entreprises de la région Lyonnaise à
                   se développer et à connaître le succès. Nous travaillons pour
                   aider les entreprises locales à
-                  <strong>attirer de nouveaux clients</strong> .<br />
+                  <strong>attirer de nouveaux clients</strong>.<br />
                 </h2>
                 <p class="text-center white">
                   Nous aimons collaborer avec des entrepreneurs créatifs et des
@@ -318,7 +313,6 @@
             </div>
           </div>
         </section>
-        <!-- What-i-do END -->
 
         <!-- Portfolio -->
         <section
@@ -366,7 +360,7 @@
                   ><img
                     src="img/2.webp"
                     class="img-responsive portfolio-thumb"
-                    alt="Image d'une femme qui utilise un appareil photo professionel"
+                    alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes"
                 /></a>
                 <h3 class="mg-md text-center">
                   Création d'un site web pour photographes
@@ -404,7 +398,7 @@
                   data-lightbox="img/4.webp"
                   data-gallery-id="gallery-1"
                   data-caption="Conception d'un site pour une agence de mariage"
-                  data-frame="snapshot-lb"
+                  data-frame="snapshot-lb-no-margin"
                   ><img
                     src="img/4.webp"
                     class="img-responsive portfolio-thumb"
@@ -422,16 +416,16 @@
             </div>
           </div>
         </section>
-        <!-- Portfolio END -->
 
         <!-- ScrollToTop Button -->
         <a
           href="#top-page"
           class="bloc-button btn btn-d scrollToTop"
           onclick="scrollToTarget('1')"
+          tabindex="-1"
           ><i class="fa fa-chevron-up"></i
         ></a>
-        <!-- ScrollToTop Button END-->
+
         <!-- Contact -->
         <section
           class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper"
@@ -441,8 +435,10 @@
             <div class="row">
               <h2 class="mg-md text-center tc-white">
                 Vous voulez savoir
-                <strong>quelle est la meilleure agence web à Lyon ?</strong> Ne
-                cherchez plus !<br />Contactez notre équipe !
+                <strong
+                  >quelle est la meilleure agence web à Lyon&nbsp;?</strong
+                >
+                Ne cherchez plus&nbsp;!<br />Contactez notre équipe&nbsp;!
               </h2>
               <div class="col-sm-12 text-center">
                 <a
@@ -455,9 +451,7 @@
           </div>
         </section>
       </main>
-      <!-- Contact END -->
 
-      <!-- Footer -->
       <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
         <div class="container bloc-sm">
           <div class="row">
@@ -514,7 +508,6 @@
           </div>
         </div>
       </footer>
-      <!-- Footer END -->
     </div>
   </body>
 </html>

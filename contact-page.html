@@ -2,7 +2,10 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="Contactez-nous pour avoir un devis, ou pour fixer un rendez-vous avec nos experts au sein de nos locaux ou en visioconférence. Hâte de vous rencontrer ! A bientôt ! "
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
@@ -32,7 +35,7 @@
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
-              <a class="navbar-brand" href="index.html"
+              <a class="navbar-brand" href="index.html" tabindex="-1"
                 ><img
                   src="img/agence-la-panthere-monochrome.svg"
                   alt="Lyon web design logo agence web meilleure agence"
@@ -65,10 +68,6 @@
           </nav>
         </div>
       </header>
-      <!-- Header END -->
-
-      <!-- Main -->
-      <!-- Conatct header -->
       <main>
         <section
           class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper"
@@ -78,7 +77,7 @@
             <div class="row">
               <div class="col-sm-12">
                 <h1 class="text-center hero-bloc-text tc-white">
-                  Parlons web design !
+                  Parlons web design&nbsp!
                 </h1>
                 <p class="text-center mg-lg tc-white tight-width-whitespace">
                   Nous sommes ravis que vous souhaitiez collaborer avec notre
@@ -90,7 +89,6 @@
             </div>
           </div>
         </section>
-        <!-- Conatct header END -->
         <!-- Contact form -->
         <section class="bloc bgc-white l-bloc" id="bloc-7">
           <div class="container bloc-lg">
@@ -146,20 +144,23 @@
                 </form>
               </div>
               <div class="col-sm-6">
-                <p class="margin-top-30px">
-                  contact@agencelapanthere.com<br />2 place Sathonay 69001
-                  Lyon<br />Ouvert de 9h à 18h, du lundi au vendredi<br />
-                </p>
+                <address class="margin-top-30px">
+                  <a
+                    href="mailto:contact@agencelapanthere.com"
+                    title="Contactez-nous par mail"
+                    >contact@agencelapanthere.com</a
+                  ><br />
+                  place Sathonay 69001 Lyon<br />Ouvert de 9h à 18h, du lundi au
+                  vendredi<br />
+                </address>
               </div>
             </div>
           </div>
         </section>
-        <!-- Contact form END -->
       </main>
-      <!-- Main END -->
 
       <!-- Map -->
-      <div class="map-area fix">
+      <div class="map-area fix" tabindex="0">
         <div id="map"></div>
       </div>
       <script
@@ -178,9 +179,7 @@
           zoom: 18,
         });
       </script>
-      <!-- Map END -->
 
-      <!-- Footer-->
       <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
         <div class="container bloc-sm">
           <div class="row">
@@ -236,7 +235,6 @@
           </div>
         </div>
       </footer>
-      <!-- Footer-->
     </div>
   </body>
 </html>
